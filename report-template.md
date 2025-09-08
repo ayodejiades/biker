@@ -16,7 +16,7 @@ The initial RMSE score for the first model was -52.785675. With the inclusion of
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-It had a better score of .
+It had a better score of -36.344086.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 I would go further into the data and perform feature engineering to create new features that would better inform the model, as well as try more hyperparameter tuning.
@@ -26,7 +26,7 @@ I would go further into the data and perform feature engineering to create new f
 |--|--|--|--|--|
 |initial|None|best_quality|600|1.8007|
 |add_features|None|best_quality|600|0.63507|
-|hpo|1|best_quality|900|0.468|
+|hpo|1|best_quality|900|0.4680|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
@@ -41,4 +41,4 @@ TODO: Replace the image below with your own.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-The project did well with a total score 0f 0.468.
+The project did well with a total score 0f 0.4680.
